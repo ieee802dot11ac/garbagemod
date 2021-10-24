@@ -1,4 +1,4 @@
-using LogicWorld.Server;
+using LogicWorld.Server.Circuitry;
 using LogicWorld.LogicCode;
 namespace LogicWorld.LogicCode
 {

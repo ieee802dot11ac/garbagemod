@@ -31,7 +31,7 @@ hAdder:
         allowFineRotation: false
         canBeFlipped: true
         flippingPointHeight: 0.5
-    logicScript: LogicWorld.LogicCode.HalfAdder
+    logicCode: LogicWorld.LogicCode.HalfAdder
 fAdder:
     column: "Logic"
     prefab:
