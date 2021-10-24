@@ -31,7 +31,7 @@ hAdder:
         allowFineRotation: false
         canBeFlipped: true
         flippingPointHeight: 0.5
-    logicScript: hAdder
+    logicCode: hAdder
 fAdder:
     column: "Logic"
     prefab:
