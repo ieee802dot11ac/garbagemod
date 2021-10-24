@@ -1,0 +1,13 @@
+########
+# Misc #
+########
+
+TallPeg:
+    column: "Miscellaneous"
+    category: "Routing"
+    prefab:
+        inputs:
+            -
+                length: 2
+                bottomless: false
+    placingRules: PegLike

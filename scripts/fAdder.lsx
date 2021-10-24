@@ -1,0 +1,18 @@
+# alright here we go
+# full motherfuckin adder
+any
+    out[0] = 0
+    out[1] = 0
+    if in[0] + in[1] + in[2] == 1'
+        out[0] = 1
+        out[1] = 0
+    end
+    if in[0] + in[1] + in[2] == 2'
+        out[0] = 0
+        out[1] = 1
+    end
+    if in[0] + in[1] + in[2] == 3'
+        out[0] = 1
+        out[1] = 1
+    end
+end

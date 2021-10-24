@@ -1,0 +1,27 @@
+# this is some of the worst god damn code i've ever fucking wrote
+# this language sucks ass
+any
+    out[0] = 0
+    out[1] = 0
+    if in[0] & !in[1] 
+        out[0] = 1
+        out[1] = 0
+    else
+        out[0] = 0
+    end
+    if in[1] == 1 & in[0] == 0 
+        out[0] = 1
+        out[1] = 0
+    else
+        out[0] = 0
+    end
+    if in[0] == 1
+        if in[1] == 1
+            out[1] = 1
+            out[0] = 0
+        end
+    else
+        out[1] = 0
+    end
+    update
+end
